@@ -13,7 +13,21 @@
 
 ## Research Questions <a name="Research_questions"></a>
 
+Do women receive more important movie roles currently than in the past?
+
+Is the gender gap bigger in some genres than in others?
+
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
+
+To check :
+
+https://www.kaggle.com/danielgrijalvas/movies Have main actor
+
+https://datasets.imdbws.com/ main actors also, review
+
+https://github.com/taubergm/HollywoodGenderData Have director gender
+
+
 
 ## Methods <a name="Methods"></a>
 
