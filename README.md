@@ -15,13 +15,13 @@
 
 ARGUMENT ON FEASIBILITY OR CHANGE THE QUESTIONS
 
-Do women receive more important movie roles currently than in the past?
+1) Do women receive more important movie roles currently than in the past?
 
-Are feminine characters described differently as the ones played by men ? (adjectives, action verbs, ...)
+2) Are feminine characters described differently as the ones played by men ? (adjectives, action verbs, ...)
 
-Is the gender gap (assuming there is one) bigger in some genres than in others?
+3) Is the gender gap (assuming there is one) bigger in some genres than in others?
 
-Are there more disparities between women and men actors in different regions of the world (Hollywood, Bolywood, Europe) ?
+4) Are there more disparities between women and men actors in different regions of the world (Hollywood, Bolywood, Europe) ?
 
 These questions imply that we need to define :
 - metrics for evaluating the importance of a movie role
