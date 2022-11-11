@@ -17,6 +17,8 @@ Do women receive more important movie roles currently than in the past?
 
 Is the gender gap bigger in some genres than in others?
 
+Is there more disparities between women and men actors in different regions of the world (Hollywood, Bolywood, Europe) ?
+
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
 
 To check :
