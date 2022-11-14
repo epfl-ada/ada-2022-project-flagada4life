@@ -33,6 +33,8 @@ These questions imply that we need to define :
 
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
 
+Can scrape the ratings per gender from imdb : https://help.imdb.com/article/imdb/track-movies-tv/how-can-i-view-the-breakdown-of-ratings/GZ9RAH4MHBYJWF42?ref_=helpart_nav_14#
+
 To check :
 
 https://www.kaggle.com/danielgrijalvas/movies Have main actor
