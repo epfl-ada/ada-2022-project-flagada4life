@@ -17,12 +17,16 @@ The film industry has a huge impact on society. As many people watch movies, the
 
 We can also expect society to have a great impact on movie industry, as many movie scenari are inspired by real stories and by how society is shaped. Such an hypothesis implies that women's role in the movie industry should change with their place in the society. 
 
-Our definition of women's role in movie industry include the following metrics :
+Our definition of women's role in movie industry include the following quantities :
 
-- Importance of the role
-- Age of the role
+- Importance of the role : Is the actor/actress playing a main character in the movie ? 
+  This metric can be used to assess if men regularly get more important roles in movies.
+- Age of the role : At what (actor/actress) age is played the role ? 
+  This quantity is used to see if women and men age influence differently the roles they obtain.
 - Qualitative aspect of women role 
+  Assess how women characters are described differently than men characters.
 - Importance of women in public opinion on movies
+  Assess if public opinion is biased towards men opinions or women opinions. Who judges the quality of a movie?
 
 We want to explore these characteristics accross time ( DEFINE PERIOD ), in different movie industries (Europe, Bollywood, and Holywood, and also trhoughout the different movie genres.
 
@@ -57,10 +61,12 @@ Probably keep :
 
 - https://datasets.imdbws.com/ main actors also, review
 
+Note: There are tools like "gender guesser" which give the gender based on a name. Seems reliable, maybe not for specific persons. 
+
 Probably not use but maybe:
 
-https://www.kaggle.com/danielgrijalvas/movies Have main actor
-https://github.com/taubergm/HollywoodGenderData Have director gender
+- https://www.kaggle.com/danielgrijalvas/movies Have main actor
+- https://github.com/taubergm/HollywoodGenderData Have director gender
 
 ## Methods <a name="Methods"></a>
 
