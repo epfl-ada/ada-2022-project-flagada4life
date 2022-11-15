@@ -61,7 +61,17 @@ Probably keep :
 
 - https://datasets.imdbws.com/ main actors also, review
 
-Able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database. This can allow to fullfil missing data on these movies and give acces to much more information :
+Why do we use this dataset? 
+
+We are able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database. This can allow to fullfil missing data on these movies and give acces to much more information.
+
+Using IMDb, we get access to the cast in credits order (https://help.imdb.com/article/contribution/filmography-credits/cast-acting-credits-guidelines/GH3JZC74FVYKKFMD?ref_=helpart_nav_5#) which can, for certain movies, give an idea of how important is the actor/actress role. However, if the director decides to put the cast in alphabetical order or in order of appearance, main actors may be buried in the credits. Credits may be listed in alphabetical order or according to appearance or popularity which makes it hard to track whichs actors are the most important.
+
+One key aspect is that imdb gives access to demographics of data reviews, we get the number of voters and the grades attributed to movies by men and women of different ages. We can thus provide an analysis of the difference in the way men and women grade movies and if more men or women review movies on IMDb. A preliminary analysis have shown that when we focus on the 250 best graded movies of IMDb, only 17% of the grades are coming from women and no film among the 250 has recieved more positive grades from women than from men. So we can ask ourselves : do IMDb grades mostly showcase male opinion on movies ? 
+
+We have also access to the writers and the directors, which can add a dimension to our analysis.
+
+
 
 LIST USEFUL
 
