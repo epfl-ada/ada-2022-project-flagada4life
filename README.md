@@ -63,6 +63,8 @@ Probably keep :
 
 Why do we use this dataset? 
 
+First, it has much more movies than ours, so we can generalize findings more easily.
+
 We are able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database. This can allow to fullfil missing data on these movies and give acces to much more information.
 
 Using IMDb, we get access to the cast in credits order (https://help.imdb.com/article/contribution/filmography-credits/cast-acting-credits-guidelines/GH3JZC74FVYKKFMD?ref_=helpart_nav_5#) which can, for certain movies, give an idea of how important is the actor/actress role. However, if the director decides to put the cast in alphabetical order or in order of appearance, main actors may be buried in the credits. Credits may be listed in alphabetical order or according to appearance or popularity which makes it hard to track whichs actors are the most important.
