@@ -1,4 +1,4 @@
-Title: Comparative study of women and men roles in cinema.
+**Title:** Comparative study of women and men roles in cinema.
 
 Abstract: 
 The goal of this project is to try to find and evaluate and describe qualitatively as well as quantitatively the difference in men and women's roles in the movie industry. To answer this problematic we would use the database named CMU Movie Summary Corpus, which contains informations about a vast number of films, including the actors involved, their age, their genre, but also a small summary of the movie. We would compile all these data to extract interesting informations. 
