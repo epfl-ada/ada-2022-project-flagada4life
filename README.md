@@ -69,7 +69,7 @@ Using IMDb, we get access to the cast in credits order (https://help.imdb.com/ar
 
 One key aspect is that imdb gives access to demographics of data reviews, we get the number of voters and the grades attributed to movies by men and women of different ages. We can thus provide an analysis of the difference in the way men and women grade movies and if more men or women review movies on IMDb. A preliminary analysis have shown that when we focus on the 250 best graded movies of IMDb, only 17% of the grades are coming from women and no film among the 250 has recieved more positive grades from women than from men. So we can ask ourselves : do IMDb grades mostly showcase male opinion on movies ? 
 
-We have also access to the writers and the directors, which can add a dimension to our analysis.
+We have also access to the writers and the directors, which can add a dimension to our analysis. 
 
 
 
