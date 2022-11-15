@@ -61,6 +61,10 @@ Probably keep :
 
 - https://datasets.imdbws.com/ main actors also, review
 
+Able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database. This can allow to fullfil missing data on these movies and give acces to much more information :
+
+LIST USEFUL
+
 Note: There are tools like "gender guesser" which give the gender based on a name. Seems reliable, maybe not for specific persons. 
 
 Probably not use but maybe:
