@@ -1,21 +1,14 @@
-# Title
-
-## Table of Contents
-1. [Abstract](#Abstract)
-2. [Research questions](#Research_questions)
-3. [Proposed additional datasets](#Proposed_additional_datasets)
-4. [Methods](#Methods)
-5. [Proposed timeline](#Proposed_timeline)
-6. [Organisation within the team](#Organisation)
-7. [Questions for the TAs](#Questions)
+# Title : Gender representation in the film industry
 
 ## Abstract <a name="Abstract"></a>
 
 (Draft)
 
-The film industry has a huge impact on society. As many people watch movies, they can impact people's representation of the world and thus the path they choose in life. For example, if a girl does not see any women in movies play roles of lawyers, and does not have women lawyers in her relatives, she will probably never consider studying law when growing up.
+mots clés: stereotype / 
 
-We can also expect society to have a great impact on movie industry, as many movie scenari are inspired by real stories and by how society is shaped. Such an hypothesis implies that women's role in the movie industry should change with their place in the society. 
+Nowadays, gender representation is a topic that frequently comes up in public debate. One could recentre the question on the film industry. As movies reflect society, the different gender stereotypes are probably also depicted in them. Thus, it would be interesting to evaluate and quantify this difference. To do so, we will exploit a specific database, namely the CMU movies summary dataset, which gathers various information on the actors, characters, and the pre-processed movies summaries. We aim to compare the data for different geographical regions and time periods, to visualize the evolution if any. Then, we will try to identify if there exist some mechanisms that tend to reinforce, or on the contrary reduce, the presence or impact of these stereotypes. 
+
+
 
 Our definition of women's role in movie industry include the following quantities :
 
@@ -32,27 +25,15 @@ We want to explore these characteristics accross time (from 1950 to 2010), in di
 
 
 ## Research Questions <a name="Research_questions"></a>
-
-ARGUMENT ON FEASIBILITY OR CHANGE THE QUESTIONS
-
-1) Do women receive more important movie roles currently than in the past?
-
-2) Are feminine characters described differently as the ones played by men ? (adjectives, action verbs, ...)
-
-3) Is the gender gap (assuming there is one) bigger in some genres than in others?
-
-4) Are there more disparities between women and men actors in different regions of the world (Hollywood, Bolywood, Europe) ?
-
-5) Does the gender of the writer/producer have impact on how women are integrated to movies ?
-
-5) Are imdb ratings biased towards male or female opinion ?
+The analysis will be performed to answer the following questions:
+1.	What is the difference between women and men actors in different regions of the world (Hollywood, Bollywood, Europe)?
+2.	Are feminine characters described differently as the ones played by men? (Adjectives, action verbs, ...)
+3.	Is the gender gap (assuming there is one) bigger in some movie genres than in others?
+4.	Does the gender of the writer/producer have impact on how women are integrated to movies ?
 
 These questions imply that we need to define :
-- metrics for evaluating the importance of a movie role
 - comparison criteria in terms of how women and men are described
 - all metrics for defining the size of the gender gap
--
-
 
 
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
@@ -74,6 +55,34 @@ Using IMDb, we get access to the cast in credits order (https://help.imdb.com/ar
 One key aspect is that imdb gives access to demographics of data reviews, we get the number of voters and the grades attributed to movies by men and women of different ages. We can thus provide an analysis of the difference in the way men and women grade movies and if more men or women review movies on IMDb. A preliminary analysis have shown that when we focus on the 250 best graded movies of IMDb, only 17% of the grades are coming from women and no film among the 250 has recieved more positive grades from women than from men. So we can ask ourselves : do IMDb grades mostly showcase male opinion on movies ? 
 
 We have also access to the writers and the directors, which can add a dimension to our analysis. 
+
+
+
+
+
+ARGUMENT ON FEASIBILITY OR CHANGE THE QUESTIONS
+
+1) Do women receive more important movie roles currently than in the past?
+
+2) Are feminine characters described differently as the ones played by men ? (adjectives, action verbs, ...)
+
+3) Is the gender gap (assuming there is one) bigger in some genres than in others?
+
+4) Are there more disparities between women and men actors in different regions of the world (Hollywood, Bolywood, Europe) ?
+
+5) Does the gender of the writer/producer have impact on how women are integrated to movies ?
+
+5) Are imdb ratings biased towards male or female opinion ?
+
+
+
+
+
+-
+
+
+
+
 
 
 
