@@ -28,7 +28,7 @@ Our definition of women's role in movie industry include the following quantitie
 - Importance of women in public opinion on movies
   Assess if public opinion is biased towards men opinions or women opinions. Who judges the quality of a movie?
 
-We want to explore these characteristics accross time ( DEFINE PERIOD ), in different movie industries (Europe, Bollywood, and Holywood, and also trhoughout the different movie genres.
+We want to explore these characteristics accross time (from 1950 to 2010), in different movie industries (Europe, Bollywood, and Holywood, and also trhoughout the different movie genres.
 
 
 ## Research Questions <a name="Research_questions"></a>
@@ -43,6 +43,8 @@ ARGUMENT ON FEASIBILITY OR CHANGE THE QUESTIONS
 
 4) Are there more disparities between women and men actors in different regions of the world (Hollywood, Bolywood, Europe) ?
 
+5) Does the gender of the writer/producer have impact on how women are integrated to movies ?
+
 5) Are imdb ratings biased towards male or female opinion ?
 
 These questions imply that we need to define :
@@ -55,7 +57,7 @@ These questions imply that we need to define :
 
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
 
-Probably keep : 
+We decide to use the IMDb datasets to enrich our data : https://www.imdb.com/interfaces/
 
 - Can scrape the ratings per gender from imdb : https://help.imdb.com/article/imdb/track-movies-tv/how-can-i-view-the-breakdown-of-ratings/GZ9RAH4MHBYJWF42?ref_=helpart_nav_14#
 
@@ -65,7 +67,7 @@ Why do we use this dataset?
 
 First, it has much more movies than ours, so we can generalize findings more easily.
 
-We are able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database. This can allow to fullfil missing data on these movies and give acces to much more information.
+We are also able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database. This can allow to fullfil missing data on these movies and give acces to much more information, such as writers and producers. Also, we are able to get their gender using a request on wikidata query service.
 
 Using IMDb, we get access to the cast in credits order (https://help.imdb.com/article/contribution/filmography-credits/cast-acting-credits-guidelines/GH3JZC74FVYKKFMD?ref_=helpart_nav_5#) which can, for certain movies, give an idea of how important is the actor/actress role. However, if the director decides to put the cast in alphabetical order or in order of appearance, main actors may be buried in the credits. Credits may be listed in alphabetical order or according to appearance or popularity which makes it hard to track whichs actors are the most important.
 
