@@ -47,7 +47,7 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 - Divide the dataset in subsets for some genre such as romance movies, action, thriller, drama...
 - Extract and plot data on the age of each actor
 
-3. NLP analysis of all the character's actions in movie summaries
+3. Analysis of all the character's actions in movie summaries using Stanford CoreNLP 
 
 - From the file corenlp_plot_summaries, we get all the actions of every characters from summaries of every movies, and store them into a dataframe with all  relevant informations to potentialy merge/make links with other dataframes (character_md, movie_md, etc.) later in the analysis. 
 - Sorting values of this dataframe by number of occurence of the action, we get the 100 most occurent actions made by actors according to their gender. Then we seen which of these actions are common for both genders (87/100), and which are not. The figures below show the most occurent actions for males that are not in the top 100 female actions and vice-versa.  
