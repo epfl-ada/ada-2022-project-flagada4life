@@ -26,12 +26,11 @@ d. Does this representation impact the way males and females rate the movie ?
 
 We decided to extend our dataset with the following datasets:
 - the IMDb datasets (https://www.imdb.com/interfaces/), as well as 
-- A query from wikidata to retrieve the gender of actors, writers, and producers. 
+- Queries from wikidata to retrieve the gender of actors, writers, and producers. 
 A complete description of the datasets if provided in the webpage of the datasets.
 
 Why do we use these datasets? 
-The IMDb dataset allows us to enrich the information on the movies, giving access to directors and writers, which adds another dimension to the analysis. The wikidata query was merged to the IMDb dataset on the name of the people. Then, we merged the two datasets on the name of the movies. Using these additionnal data, we were able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database.
-
+The IMDb dataset allows us to enrich the information on the movies, giving access to directors and writers, which adds another dimension to the analysis. We use queries to get the gender of people in the IMDb dataset, and also to match IMDb movie IDs to Freebase Movie IDs. We also have access to the ratings divided by gender on IMDb.
 
 
 ## Methods <a name="Methods"></a>
