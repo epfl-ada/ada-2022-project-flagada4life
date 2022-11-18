@@ -6,13 +6,13 @@ Nowadays, gender representation is a topic that frequently comes up in public de
 
 ## Research Questions <a name="Research_questions"></a>
 
-1. How does actors' gender impact their representation in the film industry*?
-a. Is there a difference in the typical actions male and female actors do in movie summaries ?
+1. How does actor's gender impact their representation in the film industry*?
+a. Is there a difference in the typical actions male and female actors perform in movie summaries ?
 b. Is there a difference in the age at which male and female actors play in movies ?
 c. Are males and females equally represented in main roles ? 
 d. Does this representation impact the way males and females rate the movie ?
 
-2. How do the above analysis vary with epochs*, regions**, and movie genres ? 
+2. How do the above analysis vary with epochs, regions, and movie genres ?
 
 3. Does the gender of directors/writers influence gender representation in their movies ? 
 
@@ -47,10 +47,16 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 3. NLP analysis of all the character's actions in movie summaries
 
 - From the file corenlp_plot_summaries, we get all the actions of every characters from summaries of every movies, and store them into a dataframe with all  relevant informations to potentialy merge/make links with other dataframes (character_md, movie_md, etc.) later in the analysis. 
-- Sorting values of this dataframe, we get the 100 most occurent actions made by actors according to their gender. Then we seen which of these actions are common for both genders (87/100), and which are not. The figure below shows the most occurent actions for males and females actors that are not common to both top 100.  
+- Sorting values of this dataframe by number of occurence of the action, we get the 100 most occurent actions made by actors according to their gender. Then we seen which of these actions are common for both genders (87/100), and which are not. The figures below shows the most occurent actions for males that are not in the top 100 female actions and vice-versa.  
 
 <img src="https://github.com/epfl-ada/ada-2022-project-flagada4life/blob/main/data/MovieSummaries/ADA%20P2.png" width="800" />
 
+4. Try to estimate characters importance in movies
+
+- For each movie, we try to sort characters by importance. Because we couldn't find this data on an external dataset*, we decided to determine importance of a character by the number of occurences of its name in the movie summary. 
+- To do so, we merge metadata about characters with the movie summaries dataframe, and then perform an apply function on each row to count the number of occurence of the character name on the summary. 
+
+*In the IMDB database, the ordering of the principal cast correspond to the order in which actors appear in the credits. However, depending on the movie, the ordering of credits can be made either by the order of appearance of the actors, or by their popularity, or by alphabteical order, etc. There was a dataset on Kaggle with a ranking of principals actors but it was too small (1000 rows).
 
 4. Investigation on the impact of the producer gender on the stereotypes and the description of the roles
 
