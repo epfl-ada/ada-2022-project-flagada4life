@@ -18,24 +18,17 @@ These questions imply that we need to define :
 
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
 
-We decided to use the IMDb datasets to enrich our data : https://www.imdb.com/interfaces/, as well as data from wikidata, to retrieve the genre of the desired people. 
+We decided to use the IMDb datasets to enrich our data : https://www.imdb.com/interfaces/, as well as data from wikidata, to retrieve the gender of actors, writers, and producers. A complete description of the datasets if provided in the webpage of the datasets.
 
 Why do we use this dataset? 
-This dataset allows us to get data for the movies directors and movie crews, which adds another dimension to the analysis. We were able to match the two datasets by knowing the name of the movies. 
+This dataset allows us to enrich the information on the movies, giving access to directors, writers, and principal cast (in credits order), which adds another dimension to the analysis. We were able to match the two datasets by querying the mapping between IMDb IDs and Freebase Ids.
 
 
-!!!!!!!!!!!!!!!!!!!!!!!We are also able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database.
+!!!!!!!!!!!!!!!!!!!!!!!We are able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database.
 
-One key aspect is that imdb gives access to demographics of data reviews, we get the number of voters and the grades attributed to movies by men and women of different ages. We can thus provide an analysis of the difference in the way men and women grade movies and if more men or women review movies on IMDb. A preliminary analysis have shown that when we focus on the 250 best graded movies of IMDb, only 17% of the grades are coming from women and no film among the 250 has recieved more positive grades from women than from men. So we can ask ourselves : do IMDb grades mostly showcase male opinion on movies ? 
-
-We have also access to the writers and the directors, which can add a dimension to our analysis. 
+One other interesting resources provided by IMDb is the access to demographics of data reviews, we get the number of voters and the grades attributed to movies by men and women of different ages. We can thus provide an analysis of the difference in the way men and women grade movies and if more men or women review movies on IMDb. A preliminary analysis have shown that when we focus on the 250 best graded movies of IMDb, only 17% of the grades are coming from women and no film among the 250 has recieved more positive grades from women than from men. So we can ask ourselves if IMDb grades mostly showcase male opinion on movies ? 
 
 
-
-Probably not use but maybe:
-
-- https://www.kaggle.com/danielgrijalvas/movies Have main actor
-- https://github.com/taubergm/HollywoodGenderData Have director gender
 
 ## Methods <a name="Methods"></a>
 
@@ -43,7 +36,7 @@ Probably not use but maybe:
 
  - CMU Movie Summary Corpus: merge the provided datasets to aggregate desired data, remove the lines that are useless because of missing information
  - IMDB dataset: merge the provided datasets on the movie names, to have in a single table the movie identifier, the actors / directors, and movie informations. 
- - Wikidata query: merge with the IMDB dataset to add the genre of each person in the previous dataset. 
+ - Wikidata query: merge with the IMDB dataset to add the gender of each person in the previous dataset. 
 
 2. Preliminary analysis
 
