@@ -61,19 +61,19 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 
 *In the IMDB database, the ordering of the principal cast correspond to the order in which actors appear in the credits. However, depending on the movie, the ordering of credits can be made either by the order of appearance of the actors, or by their popularity, or by alphabteical order, etc. There was a dataset on Kaggle with a ranking of principals actors but it was too small (1000 rows).
 
-4. Investigation on the impact of the producer gender on the stereotypes and the description of the roles
+5. Investigation on the impact of the producer gender on the stereotypes and the description of the roles
 
 
-5. Investigation on the impact of the movie genre on the stereotypes and the description of the roles
+6. Investigation on the impact of the movie genre on the stereotypes and the description of the roles
 
 
-6. Investigation on the impact of the geographical region on the stereotypes and the description of the roles
+7. Investigation on the impact of the geographical region on the stereotypes and the description of the roles
 
 
-7. Sentiment analysis to see if the roles are depicted differently depending on the genre of the character
+8. Sentiment analysis to see if the roles are depicted differently depending on the genre of the character
 
 
-8. Variety of the vocabulary used to describe a character depending on its genre
+9. Variety of the vocabulary used to describe a character depending on its genre
 
 
 ## Proposed timeline <a name="Proposed_timeline"></a>
@@ -82,7 +82,7 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 
 28.11.22: steps: 5 and 6
 
-5.12.22: steps 7 and 8
+5.12.22: steps 7, 8 and 9
 
 12.12.22: Coding of the website to present the results, starting the storytelling
 
