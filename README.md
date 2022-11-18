@@ -3,6 +3,7 @@
 ## Abstract <a name="Abstract"></a>
 Nowadays, gender representation is a topic that frequently comes up in public debate. One could recentre the question on the film industry. As movies reflect society, the different gender stereotypes are probably also depicted in them. Thus, it would be interesting to evaluate and quantify this difference. To do so, we will exploit a specific database, namely the CMU movies summary dataset, which gathers various information on the actors, characters, and the pre-processed movies summaries. We aim to compare the data for different geographical regions and time periods, to visualize the evolution if any. Then, we will try to identify if there exist some mechanisms that tend to reinforce, or on the contrary reduce, the presence or impact of these stereotypes. 
 
+Nowadays, gender representation and stereotypes are topics that frequently comes up in public debate. One could recentre the question on the film industry. As movies reflect society, the different gender stereotypes are probably also depicted in them. We thought that it would be interesting to make analysis about 
 
 ## Research Questions <a name="Research_questions"></a>
 
@@ -47,7 +48,7 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 3. NLP analysis of all the character's actions in movie summaries
 
 - From the file corenlp_plot_summaries, we get all the actions of every characters from summaries of every movies, and store them into a dataframe with all  relevant informations to potentialy merge/make links with other dataframes (character_md, movie_md, etc.) later in the analysis. 
-- Sorting values of this dataframe by number of occurence of the action, we get the 100 most occurent actions made by actors according to their gender. Then we seen which of these actions are common for both genders (87/100), and which are not. The figures below shows the most occurent actions for males that are not in the top 100 female actions and vice-versa.  
+- Sorting values of this dataframe by number of occurence of the action, we get the 100 most occurent actions made by actors according to their gender. Then we seen which of these actions are common for both genders (87/100), and which are not. The figures below show the most occurent actions for males that are not in the top 100 female actions and vice-versa.  
 
 <img src="https://github.com/epfl-ada/ada-2022-project-flagada4life/blob/main/data/MovieSummaries/ADA%20P2.png" width="800" />
 
