@@ -47,9 +47,10 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 3. NLP analysis of all the character's actions in movie summaries
 
 - From the file corenlp_plot_summaries, we get all the actions of every characters from summaries of every movies, and store them into a dataframe with all  relevant informations to potentialy merge/make links with other dataframes (character_md, movie_md, etc.) later in the analysis. 
-- Sorting values this dataframe, we get the 100 most occurent actions made by actors according to their gender. Then we seen which of these actions are common for both genders (87/100), and which are not.
+- Sorting values of this dataframe, we get the 100 most occurent actions made by actors according to their gender. Then we seen which of these actions are common for both genders (87/100), and which are not. The figure below shows the most occurent actions for males and females actors that are not common to both top 100.  
 
-![plot](./directory_1/directory_2/.../directory_n/plot.png)
+<img src="https://github.com/epfl-ada/ada-2022-project-flagada4life/blob/main/data/MovieSummaries/ADA%20P2.png" width="800" />
+
 
 4. Investigation on the impact of the producer gender on the stereotypes and the description of the roles
 
@@ -81,4 +82,7 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 
 ## Organisation within the team <a name="Organisation"></a>
 
-![Capture d’écran (11)](https://user-images.githubusercontent.com/114073595/202502824-14ff22ea-4fa7-419b-a066-b2ed7c8b0d50.png)
+- Jehan : Task 4, interactive plots
+- Théo : Task 5, website coding
+- Tanguy : Task 6, story telling
+- Lucas : Task 7, 8 website coding
