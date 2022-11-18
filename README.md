@@ -18,15 +18,13 @@ These questions imply that we need to define :
 
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
 
-We decided to use the IMDb datasets to enrich our data : https://www.imdb.com/interfaces/, as well as data from wikidata, to retrieve the gender of actors, writers, and producers. A complete description of the datasets if provided in the webpage of the datasets.
+We decided to extend our dataset with the following datasets:
+- the IMDb datasets (https://www.imdb.com/interfaces/), as well as 
+- A query from wikidata to retrieve the gender of actors, writers, and producers. 
+A complete description of the datasets if provided in the webpage of the datasets.
 
-Why do we use this dataset? 
-This dataset allows us to enrich the information on the movies, giving access to directors, writers, and principal cast (in credits order), which adds another dimension to the analysis. We were able to match the two datasets by querying the mapping between IMDb IDs and Freebase Ids.
-
-
-!!!!!!!!!!!!!!!!!!!!!!!We are able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database.
-
-One other interesting resources provided by IMDb is the access to demographics of data reviews, we get the number of voters and the grades attributed to movies by men and women of different ages. We can thus provide an analysis of the difference in the way men and women grade movies and if more men or women review movies on IMDb. A preliminary analysis have shown that when we focus on the 250 best graded movies of IMDb, only 17% of the grades are coming from women and no film among the 250 has recieved more positive grades from women than from men. So we can ask ourselves if IMDb grades mostly showcase male opinion on movies ? 
+Why do we use these datasets? 
+The IMDb dataset allows us to enrich the information on the movies, giving access to directors and writers, which adds another dimension to the analysis. The wikidata query was merged to the IMDb dataset on the name of the people. Then, we merged the two datasets on the name of the movies. Using these additionnal data, we were able to match 62 000 out of 81 000 movies between the CMU database and the IMDb database.
 
 
 
@@ -65,21 +63,17 @@ One other interesting resources provided by IMDb is the access to demographics o
 
 ## Proposed timeline <a name="Proposed_timeline"></a>
 
-Step 4: 21.11.22
+21.11.22: steps 4 and 5
 
-Step 5: 28.11.22
+28.11.22: steps: 5 and 6
 
-Step 6: 5.12.22
+5.12.22: steps 7 and 8
 
-Step 7: 12.12.22
+Step 7: Coding of the website to present the results, starting the storytelling
 
-Step 8: 19.12.22
+Step 8: Finishing the website, adding interactive plots using the plotly library
 
 
 ## Organisation within the team <a name="Organisation"></a>
 
 ![Capture d’écran (11)](https://user-images.githubusercontent.com/114073595/202502824-14ff22ea-4fa7-419b-a066-b2ed7c8b0d50.png)
-
-
-## Questions for TAs (optional) <a name="Questions"></a>
-
