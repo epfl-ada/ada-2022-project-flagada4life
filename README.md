@@ -3,8 +3,7 @@
 ## Abstract <a name="Abstract"></a>
 Nowadays, gender representation is a topic that frequently comes up in public debate. One could recentre the question on the film industry. As movies reflect society, the different gender stereotypes are probably also depicted in them. Thus, it would be interesting to evaluate and quantify this difference. To do so, we will exploit a specific database, namely the CMU movies summary dataset, which gathers various information on the actors, characters, and the pre-processed movies summaries. We aim to compare the data for different geographical regions and time periods, to visualize the evolution if any. Then, we will try to identify if there exist some mechanisms that tend to reinforce, or on the contrary reduce, the presence or impact of these stereotypes. 
 
-
-Nowadays, gender representation and stereotypes are topics that frequently come up in public debate. As movies reflect society, the different gender stereotypes are probably also depicted in them. For example, among those stereotypes are the fact that male characters are more violent than women, that female characters are in general younger, or that female characters are more loving. It would be interesting to try to evaluate the difference in gender representations in cinema and see if stereotypes propagate in the movie industry. To do so, we will exploit a specific database, namely the CMU movies summary dataset, which gathers various information on the actors, characters, and the pre-processed movies summaries. From these pre-processed summaries, we can gather valuable data, for example on the actions done by characters. We can also from these  We aim to compare the data for different geographical regions and time periods, to visualize the evolution if any. Then, we will try to identify if there exist factors that tend to reinforce, or on the contrary reduce, the presence of these gender stereotypes. 
+Nowadays, gender representation and stereotypes are topics that frequently come up in public debate. As movies reflect society, the different gender stereotypes are probably also depicted in them. For example, among those stereotypes are the fact that male characters are more violent than women, that female characters are in general younger, or that female characters are more loving. It would be interesting to try to evaluate the difference in gender representation in cinema and see if stereotypes propagate in the movie industry. To do so, we will exploit a specific database, namely the CMU movies summary dataset, which gathers various information on the actors, characters, and the pre-processed movies summaries. For example, from these pre-processed summaries, we can gather valuable data on the actions done by characters, and associate these action to male and female characters. More generally, we aim to compare the data about many gender stereotypes, for different geographical regions and time periods, to visualize the evolution if any. Then, we will try to identify if there exist factors that tend to reinforce, or on the contrary reduce, the presence of these stereotypes. 
 
 
 
@@ -38,8 +37,8 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 1. Data scraping, pre-processing and dataset construction.
 
  - CMU Movie Summary Corpus: merge the provided datasets to aggregate desired data, remove the lines that are useless because of missing information
- - IMDB dataset: merge the provided datasets on the movie names, to have in a single table the movie identifier, the actors / directors, and movie informations. 
- - Wikidata query: merge with the IMDB dataset to add the gender of each person in the previous dataset. 
+ - IMDB dataset: merge the provided datasets on the movie IDs, to have in a single table the movie identifier, the actors / directors, and movie informations. 
+ - Wikidata query: merge with the IMDB dataset with a query to add the gender of each person in the previous dataset. 
 
 2. Preliminary analysis
 
@@ -61,19 +60,20 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 
 *In the IMDB database, the ordering of the principal cast correspond to the order in which actors appear in the credits. However, depending on the movie, the ordering of credits can be made either by the order of appearance of the actors, or by their popularity, or by alphabteical order, etc. There was a dataset on Kaggle with a ranking of principals actors but it was too small (1000 rows).
 
-5. Investigation on the impact of the producer gender on the stereotypes and the description of the roles
+5. Investigation on the impact of the producer and writer gender on the stereotypes and the description of the roles
+- Separate analysis of movies produced/written by male and females.
 
 
-6. Investigation on the impact of the movie genre on the stereotypes and the description of the roles
+6. Investigation on the impact of the movie genre on the stereotypes of the roles
 
 
-7. Investigation on the impact of the geographical region on the stereotypes and the description of the roles
+7. Investigation on the impact of the geographical region on gender representation
 
 
-8. Sentiment analysis to see if the roles are depicted differently depending on the genre of the character
+8. Sentiment analysis to see if the roles are depicted differently depending on the gender of the character
 
 
-9. Variety of the vocabulary used to describe a character depending on its genre
+9. Variety of the vocabulary used to describe a character depending on its gender
 
 
 ## Proposed timeline <a name="Proposed_timeline"></a>
