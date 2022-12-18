@@ -1,6 +1,7 @@
 # Gender representation in the film industry
 
-Hey, you can check our website by using this [link](https://luluehret.github.io/) ! :smirk:
+Hey, you can check our website by using this [link](https://luluehret.github.io/) ! :smirk: We hope you'll enjoy it!
+The code is in Milestone3.ipynb.
 
 ## Abstract <a name="Abstract"></a>
 
