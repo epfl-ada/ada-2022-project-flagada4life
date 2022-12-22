@@ -1,7 +1,7 @@
 # Gender representation in the film industry
 
 Hey, you can check our website by using this [link](https://luluehret.github.io/) ! :smirk: We hope you'll enjoy it!
-The code is in Milestone3.ipynb.
+The code used to obtain the results shared in the website is in Milestone3.ipynb. You can still find the code of milestone 2 in Milestone2.ipynb.
 
 ## Abstract <a name="Abstract"></a>
 
