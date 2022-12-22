@@ -1,11 +1,11 @@
 # Gender representation in the film industry
 
 Hey, you can check our website by using this [link](https://luluehret.github.io/) ! :smirk: We hope you'll enjoy it!
-The code is in Milestone3.ipynb.
+The code used to obtain the results shared in the website is in Milestone3.ipynb. You can still find the code of milestone 2 in Milestone2.ipynb.
 
 ## Abstract <a name="Abstract"></a>
 
-Nowadays, gender representation and stereotypes are topics that frequently come up in public debate. As movies reflect society, the different gender stereotypes are probably also depicted in them. For example, among those stereotypes are the fact that male characters are more violent than women, that female characters are in general younger, or that female characters are more loving. It would be interesting to try to evaluate the difference in gender representation in cinema and see if stereotypes propagate in the movie industry. To do so, we will exploit a specific database, namely the CMU movies summary dataset, which gathers various information on the actors, characters, and the pre-processed movies summaries. For example, from these pre-processed summaries, we can gather valuable data on the actions done by characters, and associate these action to male and female characters. More generally, we aim to use the data to study how actors' gender impact their representation in movies. We will see how this representation vary across regions of the world (USA, India, West Europe) and with time (from 1950 to 2010). Finally, we will try to identify if there exist factors that tend to reinforce, or on the contrary reduce, the presence of these stereotypes.
+Nowadays, gender representation and stereotypes are topics that frequently come up in public debate. As movies reflect society, the different gender stereotypes are probably also depicted in them. For example, among those stereotypes are the fact that male characters are more violent than women, that female characters are in general younger, or that female characters are more loving. It would be interesting to try to evaluate the difference in gender representation in cinema and see if stereotypes propagate in the movie industry. To do so, we will exploit a specific database, namely the CMU movies summary dataset, which gathers various information on the actors, characters, and the pre-processed movies summaries. For example, from these pre-processed summaries, we can gather valuable data on the actions done by characters, and associate these action to male and female characters. In this work, we evaluate four categories of actions: actions linked to love/seduction, violence, success, and intelligence and we see if they are more associated to males or females in the movie summaries.  More generally, we aim to use the data to study how actors' gender impact their representation in movies. We will see how this representation vary across regions of the world (USA, India, West Europe) and with time (from 1950 to 2010). Finally, we will try to identify if there exist factors that tend to reinforce, or on the contrary reduce, the presence of these stereotypes.
 
 
 
@@ -13,15 +13,15 @@ Nowadays, gender representation and stereotypes are topics that frequently come 
 
 1. How does actor's gender impact their representation in the film industry*?
 a. Is there a difference in the typical actions male and female actors perform in movie summaries ?
+b. Are specific categories of actions more associated to males or to females? Do these associations reinforce gernders clichés or not ?
 b. Is there a difference in the age at which male and female actors play in movies ?
 c. Are males and females equally represented in main roles ? 
-d. Does this representation impact the way males and females rate the movie ?
 
 2. How do the above analysis vary with epochs, regions, and movie genres ?
 
 3. Does the gender of directors/writers influence gender representation in their movies ? 
 
-*all analysis are made for movies from 1950 to 2010 in West Europe, India and USA.
+*all analyses are made for movies from 1950 to 2010 in West Europe, India and USA.
 
 ## Proposed additional datasets <a name="Proposed_additional_datasets_and_files"></a>
 
@@ -72,19 +72,13 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 7. Investigation on the impact of the geographical region on gender representation
 
 
-8. Sentiment analysis to see if the roles are depicted differently depending on the gender of the character
-
-
-9. Variety of the vocabulary used to describe a character depending on its gender
-
-
 ## Proposed timeline <a name="Proposed_timeline"></a>
 
 21.11.22: steps 4 and 5
 
 28.11.22: steps: 5 and 6
 
-5.12.22: steps 7, 8 and 9
+5.12.22: steps 7
 
 12.12.22: Coding of the website to present the results, starting the storytelling
 
@@ -93,7 +87,7 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 
 ## Organisation within the team <a name="Organisation"></a>
 
-- Jehan : Task 4, interactive plots
-- Théo : Task 5, website coding
-- Tanguy : Task 6, story telling
-- Lucas : Task 7, 8 website coding
+- Jehan : Analysis of clichés (categories of words), character importance in summaty, method for comparing between genders, plots
+- Théo : Actors's age analysis, website coding
+- Tanguy : Dataframes for the analysis, categories of words to test, figures, story telling
+- Lucas : Data cleaning, exploratory analysis, website design and coding, figures
