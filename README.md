@@ -88,8 +88,7 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 
 12.12.22: Coding of the website to present the results, starting the storytelling
 
-19.12.22: Finishing the website, adding interactive plots using the plotly library
-
+19.12.22: Finishing the website
 
 ## Organisation within the team <a name="Organisation"></a>
 
