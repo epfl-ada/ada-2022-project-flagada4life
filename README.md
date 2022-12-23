@@ -3,7 +3,7 @@
 [-->The website is available here<--](https://luluehret.github.io/)
 
 We hope you'll enjoy the reading!
-The code used to obtain the results shared in the website is in [Milestone3.ipynb](Milestone3.ipynb). You can still find the code of milestone 2 in [Milestone2.ipynb](Milestone 2.ipynb).
+The code used to obtain the results shared in the website is in [Milestone3.ipynb](Milestone3.ipynb). You can still find the code of milestone 2 in [Milestone 2.ipynb](Milestone2.ipynb).
 
 ## Abstract <a name="Abstract"></a>
 
