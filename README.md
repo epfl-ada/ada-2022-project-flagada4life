@@ -11,9 +11,9 @@ Nowadays, gender representation and stereotypes are topics that frequently come 
 
 ## Research Questions <a name="Research_questions"></a>
 
-1. How does actor's gender impact their representation in the film industry*?
+1. How do actors' gender impact their representation in the film industry*?
 a. Is there a difference in the typical actions male and female actors perform in movie summaries ?
-b. Are specific categories of actions more associated to males or to females? Do these associations reinforce gernders clichés or not ?
+b. Are specific categories of actions more associated to males or to females? Do these associations reinforce genders clichés or not ? We test actions in the lexical field of violence, love/seduction, intelligence and success.
 b. Is there a difference in the age at which male and female actors play in movies ?
 c. Are males and females equally represented in main roles ? 
 
@@ -55,6 +55,10 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 
 <img src="https://github.com/epfl-ada/ada-2022-project-flagada4life/blob/main/data/MovieSummaries/ADA%20P2.png" width="800" />
 
+- Define group of actions in a specific lexical field (love/seduction, violence, intelligence, success) by browsing internet and asking chatGPT.
+
+- Test if these four groups of actions tend to be more associated to men or to women.
+
 4. Try to estimate characters importance in movies
 
 - For each movie, we try to sort characters by importance. Because we couldn't find this data on an external dataset*, we decided to determine importance of a character by the number of occurences of its name in the movie summary. 
@@ -66,10 +70,10 @@ The IMDb dataset allows us to enrich the information on the movies, giving acces
 - Separate analysis of movies produced/written by male and females.
 
 
-6. Investigation on the impact of the movie genre on the stereotypes of the roles
+6. Investigation on the impact of the movie genre on the stereotypes of the roles.
 
 
-7. Investigation on the impact of the geographical region on gender representation
+7. Investigation on the impact of the geographical region on gender representation.
 
 
 ## Proposed timeline <a name="Proposed_timeline"></a>
